@@ -31,7 +31,7 @@ The complete source code for pre-processing the dataset and creating the model i
 ### Dataset cloning
 The dataset is cloned from the respective GitHub repository using the following command: 
 ```python
-! git clone https://github.com/JustinaMichael/CNN_SorghumWeedDataset_Classification.git
+!git clone https://github.com/JustinaMichael/SorghumWeedDataset_Classification.git
 ```
 
 ### Data pre-processing
