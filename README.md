@@ -1,8 +1,8 @@
-# CNN_SorghumWeed_Classifier
-'CNN_SorghumWeed_Classifier' is an artificial intelligence (AI) based software that can differentiate a sorghum sampling image from its associated weeds images. This repository releases the source code for pre-processing, augmenting, and normalizing the 'SorghumWeedDataset_Classification' dataset. It also contains the code for training, validating, and testing the AI model using transfer learning. The reproducible code of the CNN_SorghumWeed_Classifier is also available at https://codeocean.com/capsule/9796503/tree.
+# CNN_Sorghum_Weed_Classifier
+'CNN_Sorghum_Weed_Classifier' is an artificial intelligence (AI) based software that can differentiate a sorghum sampling image from its associated weeds images. This repository releases the source code for pre-processing, augmenting, and normalizing the 'SorghumWeedDataset_Classification' dataset. It also contains the code for training, validating, and testing the AI model using transfer learning. The reproducible code of the CNN_SorghumWeed_Classifier is also available at https://codeocean.com/capsule/9796503/tree.
 
 ## Dataset utilized
-CNN_SorghumWeed_Classifier is constructed using 'SorghumWeedDataset_Classification,' a crop-weed research dataset. The dataset is cloned in the source code for further processing and model building. The following references relate to the dataset: <br/>
+CNN_Sorghum_Weed_Classifier is constructed using 'SorghumWeedDataset_Classification,' a crop-weed research dataset. The dataset is cloned in the source code for further processing and model building. The following references relate to the dataset: <br/>
 <ul>
   <li>First appeared at https://data.mendeley.com/datasets/4gkcyxjyss/1</li>
   <li>GitHub repository: https://github.com/JustinaMichael/SorghumWeedDataset_Classification.git</li>
@@ -73,7 +73,7 @@ history = model.fit(x = training_set,
 'EarlyStopping' is triggered by the following code, which prevents overfitting even after the model has been initialized for 50 training epochs:
 
 ```python
-es = EarlyStopping(monitor = "val_accuracy",
+es = EarlyStopping(monitor = "val_accuracy", 
                    min_delta = 0.01,
                    patience = 5,
                    verbose = 1,
@@ -81,16 +81,19 @@ es = EarlyStopping(monitor = "val_accuracy",
 ```
 
 ### Evaluating the best-performing model
-The following code is used to evaluate each of the four models, and the results are compared. With an accuracy of 94.19%, MobileNetV2 produced the best results out of the four models. The results are presented graphically for easy comprehension.
+The following code is used to evaluate each of the four models, and the results are compared. With the highest accuracy of 0.96 and a considerable loss of 0.4, DenseNet201 produced the best results out of the four models. The results are presented graphically for easy comprehension.
 ```python
 evaluate_test_data = model.evaluate(test_set)
 ```
+<I>
+  Please Note: The model produces slightly different results each time it is trained, deviating from the specified values. 
+</I>
 
 ## Licence
 This project is licensed under the APACHE LICENSE, VERSION 2.0.
 
 ## Citation 
-If you find this dataset helpful and use it in your work, kindly cite the dataset using “Michael, Justina; M, Thenmozhi (2023), “SorghumWeedDataset_Classification”, Mendeley Data, V1, doi: 10.17632/4gkcyxjyss.1”
+Please give credit to the "SorghumWeedDataset_Classification" dataset if you find it useful and utilize it in your work by citing “Michael, Justina; M, Thenmozhi (2023), “SorghumWeedDataset_Classification”, Mendeley Data, V1, doi: 10.17632/4gkcyxjyss.1”.
 
 ## Contributors profile <br/>
 1. Justina Michael. J <br/>
@@ -99,4 +102,3 @@ If you find this dataset helpful and use it in your work, kindly cite the datase
 2. Dr. M. Thenmozhi <br/>
         Google Scholar: https://scholar.google.com/citations?user=Es49w08AAAAJ&hl=en&oi=ao <br/>
         ORCID: https://orcid.org/0000-0002-8064-5938 <br/>
-
