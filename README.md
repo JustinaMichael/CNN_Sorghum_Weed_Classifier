@@ -93,7 +93,10 @@ evaluate_test_data = model.evaluate(test_set)
 This project is licensed under the APACHE LICENSE, VERSION 2.0.
 
 ## Citation 
-Please give credit to the "SorghumWeedDataset_Classification" dataset if you find it useful and utilize it in your work by citing "Justina, Michael J., and M. Thenmozhi. "SorghumWeedDataset_Classification And SorghumWeedDataset_Segmentation Datasets For Classification, Detection, and Segmentation In Deep Learning." Data in Brief (2023): 109935."
+Please give credit to the "SorghumWeedDataset_Classification" dataset if you find it useful and utilize it in your work by citing 
+```
+Justina, Michael J., and M. Thenmozhi. "SorghumWeedDataset_Classification And SorghumWeedDataset_Segmentation Datasets For Classification, Detection, and Segmentation In Deep Learning." Data in Brief (2023): 109935
+```
 
 ## Contributors profile <br/>
 1. Justina Michael. J <br/>
