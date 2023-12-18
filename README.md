@@ -1,12 +1,12 @@
 # CNN_Sorghum_Weed_Classifier
-'CNN_Sorghum_Weed_Classifier' is an artificial intelligence (AI) based software that can differentiate a sorghum sampling image from its associated weeds images. This repository releases the source code for pre-processing, augmenting, and normalizing the 'SorghumWeedDataset_Classification' dataset. It also contains the code for training, validating, and testing the AI model using transfer learning. The reproducible code of the CNN_SorghumWeed_Classifier is also available at https://codeocean.com/capsule/9796503/tree.
+'CNN_Sorghum_Weed_Classifier' is an artificial intelligence (AI) based software that can differentiate a sorghum sampling image from its associated weeds images. This repository releases the source code for pre-processing, augmenting, and normalizing the 'SorghumWeedDataset_Classification' dataset. It also contains the code for training, validating, and testing the AI model using transfer learning. The reproducible code of the CNN_SorghumWeed_Classifier is also available at https://codeocean.com/capsule/1446799/tree
 
 ## Dataset utilized
 CNN_Sorghum_Weed_Classifier is constructed using 'SorghumWeedDataset_Classification,' a crop-weed research dataset. The dataset is cloned in the source code for further processing and model building. The following references relate to the dataset: <br/>
 <ul>
   <li>First appeared at https://data.mendeley.com/datasets/4gkcyxjyss/1</li>
   <li>GitHub repository: https://github.com/JustinaMichael/SorghumWeedDataset_Classification.git</li>
-  <li>Detailed description of the data acquisition process: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4593178</li>
+  <li>Detailed description of the data acquisition process: https://www.sciencedirect.com/science/article/pii/S2352340923009678</li>
 </ul>
 
 ## Language and Dependencies
@@ -15,11 +15,11 @@ Dependencies: <br/>
 <ul>
   <li> Tensorflow: 2.14.0</li>
   <li> Scikit-learn: 1.2.2</li>
-  <li>Seaborn: 0.12.2</li>
-  <li>Matplotlib: 3.7.1</li>
-  <li>Scipy: 1.11.3</li>
-  <li>Numpy: 1.23.5</li>
-  <li>Pandas: 1.5.3</li>
+  <li> Seaborn: 0.12.2</li>
+  <li> Matplotlib: 3.7.1</li>
+  <li> Scipy: 1.11.3</li>
+  <li> Numpy: 1.23.5</li>
+  <li> Pandas: 1.5.3</li>
 </ul>
 
 ## CNN_Sorghum_Weed_Classifier.ipynb
@@ -93,7 +93,7 @@ evaluate_test_data = model.evaluate(test_set)
 This project is licensed under the APACHE LICENSE, VERSION 2.0.
 
 ## Citation 
-Please give credit to the "SorghumWeedDataset_Classification" dataset if you find it useful and utilize it in your work by citing “Michael, Justina; M, Thenmozhi (2023), “SorghumWeedDataset_Classification”, Mendeley Data, V1, doi: 10.17632/4gkcyxjyss.1”.
+Please give credit to the "SorghumWeedDataset_Classification" dataset if you find it useful and utilize it in your work by citing "https://www.sciencedirect.com/science/article/pii/S2352340923009678".
 
 ## Contributors profile <br/>
 1. Justina Michael. J <br/>
